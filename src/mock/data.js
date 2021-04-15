@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Diego Espinoza',
+  subtitle: "I'm a software developer",
   cta: '',
 };
 
@@ -32,8 +32,8 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/digeoesp',
+    repo: 'https://https://github.com/digeoesp/portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -68,7 +68,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/diego_crypto',
     },
     {
       id: nanoid(),
@@ -78,12 +78,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/diego-espinoza1/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/digeoesp',
     },
   ],
 };
