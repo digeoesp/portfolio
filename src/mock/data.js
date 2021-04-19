@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1cIVVLxcalvb8AZwULxg9G6YQPkV5__B4/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -66,8 +66,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: 'Email',
   email: 'diegoespinoza475@outlook.com',
 };
 
