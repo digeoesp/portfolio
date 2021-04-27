@@ -46,9 +46,13 @@
       font-size: 2.8rem;
     }
   }
-
-  .hero-cta {
+  #contact-container {
     display: flex;
+    
+  }
+  .hero-cta {
+    
+    padding: 2px;
 
     @include respond(tab-port) {
       justify-content: center;
@@ -63,3 +67,4 @@
     }
   }
 }
+
