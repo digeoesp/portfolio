@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1pFtEmbnvg7fTY6ucEWK3FND_VVqzFzvg/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/19quNBjfRmlrVnFgMtPZoCJ_VZOPMPbvw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
