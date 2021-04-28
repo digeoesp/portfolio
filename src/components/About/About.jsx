@@ -26,6 +26,7 @@ const About = () => {
     <section id="about">
       <Container>
         <Title title="About Me" />
+        <p> Diego Espinoza</p>
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,7 +40,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a full-stack web developer with a passion for solving complex problems in Javascript and Python. My background in a demanding, fast-paced environment prepared me to tackle challenges efficiently.  I work well in a team environment by communicating clearly,  pulling my own weight,  and helping others. '}
+                    'San Diego based software developer with a passion for solving complex problems in Javascript and Python. My background in a demanding, fast-paced environment prepared me to tackle challenges efficiently.  I work well in a team environment by communicating clearly,  pulling my own weight,  and helping others. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
