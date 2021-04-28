@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Tail Wag',
     info: 'Fullstack application where users are able to enter their zip code to search for dogs or cats that are currently available for adoption near their area. Utilizing PetFinder Api we are able to grab current and up to date data across the U.S and Canada',
     info2: 'Technologies used: React, CSS, Express, MongoDB, Mongoose',
-    url: '',
+    url: 'https://tail-wag.herokuapp.com',
     repo: 'https://github.com/digeoesp/mern-auth-frontend', // if no repo, the button will not show up
   },
   {
