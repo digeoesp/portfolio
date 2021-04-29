@@ -2329,3 +2329,36 @@
   overflow: visible;
   clip: auto;
 }
+
+#languages-icons {
+  font-size: 4em;
+  color: #674f66;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 50px;
+}
+.icon-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 0 60px 0;
+  flex-wrap: wrap;
+}
+
+.skills {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #272341;
+}
+.skills-footer {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #272341;
+}
