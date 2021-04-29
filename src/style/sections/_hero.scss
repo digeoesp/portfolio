@@ -17,9 +17,10 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  // background: url("https://i.pinimg.com/originals/8b/ed/83/8bed83617e59506108516ad6adf2f325.jpg");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -49,6 +50,9 @@
   #contact-container {
     display: flex;
     
+  }
+  .sd-image{
+    image-rendering: crisp-edges;
   }
   .hero-cta {
     
