@@ -61,13 +61,6 @@ const Header = () => {
             </p>
           </Fade>
         </div>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <img
-            className="sd-image"
-            src="https://res.cloudinary.com/dstqqskiw/image/upload/v1619667156/Screen_Shot_2021-04-28_at_8.28.01_PM_eijk4b.png"
-            alt="Girl in a jacket"
-          />
-        </Fade>
       </Container>
     </section>
   );
