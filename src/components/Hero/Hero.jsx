@@ -27,42 +27,39 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            <span className="text-color-main">{name || 'Diego Espinoza'}</span>
             <br />
             {subtitle || "I'm a software developer."}
           </h1>
         </Fade>
         <div id="contact-container">
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
-                {cta || 'About me'}
-              </Link>
-              
-            </span>
-          </p>
-        </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p id="contactButton" className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="projects" smooth duration={1000}>
-                {cta || 'Projects'}
-              </Link>
-              
-            </span>
-          </p>
-        </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p id="contactButton" className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="contact" smooth duration={1000}>
-                {cta || 'Contact'}
-              </Link>
-              
-            </span>
-          </p>
-        </Fade>
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <p className="hero-cta">
+              <span className="cta-btn cta-btn--hero">
+                <Link to="about" smooth duration={1000}>
+                  {cta || 'About me'}
+                </Link>
+              </span>
+            </p>
+          </Fade>
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <p id="contactButton" className="hero-cta">
+              <span className="cta-btn cta-btn--hero">
+                <Link to="projects" smooth duration={1000}>
+                  {cta || 'Projects'}
+                </Link>
+              </span>
+            </p>
+          </Fade>
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <p id="contactButton" className="hero-cta">
+              <span className="cta-btn cta-btn--hero">
+                <Link to="contact" smooth duration={1000}>
+                  {cta || 'Contact'}
+                </Link>
+              </span>
+            </p>
+          </Fade>
         </div>
       </Container>
     </section>
