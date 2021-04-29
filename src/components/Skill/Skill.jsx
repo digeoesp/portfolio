@@ -57,7 +57,7 @@ const Skill = () => {
         <p className="javascript">Postman</p>
         <p className="jupyter">Jupyter</p>
       </div>
-      <h3 className="skills-footer">And many more!</h3>
+      <h3 className="skills-footer">And many more</h3>
     </div>
   );
 };
