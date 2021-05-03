@@ -2333,16 +2333,15 @@
 #languages-icons {
   font-size: 4em;
   color: #674f66;
-  z-index: 1;
-  position: relative;
   padding-bottom: 70px;
-  flex-wrap: wrap;
 }
 .icon-flex {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px 0 60px;
-  color: black;
+  color: rgb(43, 28, 28);
+  padding-bottom: 70px;
 }
 
 .skills {
@@ -2366,10 +2365,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 0px 0px 60px 0px;
+  padding: 0px 0px 70px 0px;
   color: black;
-  border-right: double;
-  position: relative;
   bottom: 20px;
   flex-wrap: wrap;
 }
