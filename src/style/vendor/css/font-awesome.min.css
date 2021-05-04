@@ -2442,3 +2442,183 @@
   position: relative;
   right: 5px;
 }
+@media (max-width: 400px) {
+  .icon-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #java-icon {
+    position: relative;
+    left: 45px;
+    bottom: 5px;
+  }
+  #java-text {
+    position: relative;
+    left: 25px;
+    bottom: 50px;
+    border: none;
+  }
+  #html-icon {
+    position: relative;
+    right: 40px;
+    top: 90px;
+  }
+  #html-text {
+    position: relative;
+    right: 40px;
+    top: 35px;
+    border: none;
+  }
+
+  #css-icon {
+    position: relative;
+    left: 85px;
+    top: 90px;
+  }
+  #css-text {
+    position: relative;
+    top: 35px;
+    left: 45px;
+    border: none;
+  }
+  #node-icon {
+    position: relative;
+    right: 75px;
+    top: 175px;
+  }
+  #node-text {
+    position: relative;
+    right: 125px;
+    border: none;
+    top: 120px;
+  }
+
+  #post-icon {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+  }
+  #pstg-text {
+    position: relative;
+    bottom: 50px;
+    right: 80px;
+    border: none;
+  }
+  #react-icon {
+    position: relative;
+    right: 35px;
+    top: 175px;
+  }
+  #react-text {
+    position: relative;
+    right: 150px;
+    top: 120px;
+    border: none;
+  }
+  #mongo-icon {
+    position: relative;
+    left: 55px;
+    top: 350px;
+  }
+  #mongo-text {
+    position: relative;
+    border: none;
+    top: 270px;
+    left: 270px;
+  }
+  #python-icon {
+    position: relative;
+    right: 235px;
+    top: 350px;
+  }
+  #python-text {
+    position: relative;
+    border: none;
+    top: 270px;
+    right: 55px;
+  }
+  #django-icon {
+    position: relative;
+    right: 30px;
+    top: 265px;
+  }
+  #django-text {
+    position: relative;
+    border: none;
+    left: 140px;
+    top: 175px;
+  }
+  #git-icon {
+    position: relative;
+    left: 150px;
+    top: 220px;
+  }
+  #git-text {
+    position: relative;
+    border: none;
+    right: 55px;
+    top: 175px;
+  }
+  #ps-icon {
+    position: relative;
+    left: 220px;
+    bottom: 45px;
+  }
+  #ps-text {
+    position: relative;
+    bottom: 83px;
+    border: none;
+    right: 3px;
+  }
+  #lr-icon {
+    position: relative;
+    left: 165px;
+    top: 50px;
+  }
+  #lr-text {
+    position: relative;
+    left: 255px;
+    bottom: 30px;
+    border: none;
+  }
+  #js-icon {
+    position: relative;
+    left: 105px;
+    top: 135px;
+  }
+  #json-text {
+    position: relative;
+    border: none;
+    left: 168px;
+    top: 50px;
+  }
+  #pm-icon {
+    position: relative;
+    right: 200px;
+    top: 220px;
+  }
+  #pm-text {
+    position: relative;
+    border: none;
+    right: 160px;
+    top: 140px;
+  }
+  #jp-icon {
+    position: relative;
+    top: 310px;
+    right: 135px;
+  }
+  #jupy-text {
+    position: relative;
+    top: 235px;
+    right: 130px;
+  }
+  .skills-footer {
+    position: relative;
+    top: 170px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 60px;
+  }
+}
