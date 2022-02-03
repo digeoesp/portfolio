@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-  <div>
+    <div>
       <p>hi</p>
-  </div>
+    </div>
   );
-}
+};
 
 export default Navbar;
