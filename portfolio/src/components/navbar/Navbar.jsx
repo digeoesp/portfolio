@@ -1,9 +1,10 @@
 import React from 'react';
+import './nav.css';
 
 const Navbar = () => {
   return (
     <div>
-      <p>navbar</p>
+      <p className="hi">navbar</p>
     </div>
   );
 };

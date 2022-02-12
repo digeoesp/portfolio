@@ -1,0 +1,9 @@
+.about {
+  background-color: cornflowerblue;
+  display: flex;
+  /* flex-direction: ; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+}
