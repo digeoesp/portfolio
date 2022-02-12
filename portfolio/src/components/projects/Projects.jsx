@@ -3,6 +3,7 @@ import k from '../img/k.png';
 import meals from '../img/meals.png';
 import number from '../img/number.png';
 import tail from '../img/tail.png';
+import '../projects/projects.css';
 
 const Projects = () => {
   return (
@@ -17,7 +18,7 @@ const Projects = () => {
           velit vitae quibusdam laboriosam aliquid nisi? Vel beatae, eaque, porro autem atque dicta
           explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci sint debitis fugit?
         </p>
-        <img src={k} alt="food" />
+        <img className="image" src={k} alt="food" />
       </div>
       <div>
         <h2>Kcal</h2>
@@ -28,7 +29,7 @@ const Projects = () => {
           velit vitae quibusdam laboriosam aliquid nisi? Vel beatae, eaque, porro autem atque dicta
           explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci sint debitis fugit?
         </p>
-        <img src={tail} alt="food" />
+        <img className="image" src={tail} alt="food" />
       </div>
       <div>
         <h2>Kcal</h2>
@@ -39,7 +40,7 @@ const Projects = () => {
           velit vitae quibusdam laboriosam aliquid nisi? Vel beatae, eaque, porro autem atque dicta
           explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci sint debitis fugit?
         </p>
-        <img src={meals} alt="food" />
+        <img className="image" src={meals} alt="food" />
       </div>
       <div>
         <h2>Kcal</h2>
@@ -50,7 +51,7 @@ const Projects = () => {
           velit vitae quibusdam laboriosam aliquid nisi? Vel beatae, eaque, porro autem atque dicta
           explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci sint debitis fugit?
         </p>
-        <img src={number} alt="food" />
+        <img className="image" src={number} alt="food" />
       </div>
     </section>
   );
