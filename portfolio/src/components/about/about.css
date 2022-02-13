@@ -1,5 +1,6 @@
 .about {
-  background-color: rgb(152, 217, 243);
+  /* background-color: rgb(43, 53, 69); */
+  background: #f4eae0;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -14,6 +15,8 @@
 }
 .button-container > * {
   position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   bottom: 20px;
   left: 15px;
   font-size: 35px;
@@ -27,7 +30,8 @@
   gap: 1.8rem;
 }
 .header {
-  font-size: 50px;
+  font-size: 40px;
+  font-family: rubiks;
   width: 700px;
   text-align: center;
   position: relative;
@@ -38,5 +42,7 @@
   font-size: 35px;
   text-align: center;
   position: relative;
+  font-family: rubiks;
+
   left: 70px;
 }
