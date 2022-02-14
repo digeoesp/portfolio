@@ -6,8 +6,7 @@ const About = () => {
   return (
     <div className="about">
       <img className="image" src={image} alt="head shot of the developer" />
-
-      <div>
+      <div className="about-info">
         <h1 className="header">
           Hi, my name is Diego Espinoza
           <br /> I'm a software developer
