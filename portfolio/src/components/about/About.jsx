@@ -18,10 +18,11 @@ const About = () => {
           <button className="button">resume</button>
         </div>
         <p className="aboutMe">
-          San Diego based software developer with a passion for solving complex problems in
-          Javascript and Python. My background in a demanding, fast-paced environment prepared me to
-          tackle challenges efficiently. I work well in a team environment by communicating clearly,
-          pulling my own weight, and helping others.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti qui molestias officiis,
+          similique quasi ab fugiat a quod sed dolore ea animi id praesentium omnis voluptate sint,
+          assumenda dolorem saepe est perspiciatis vel, harum provident fuga. Quasi eaque maxime,
+          voluptas perspiciatis assumenda quam magni repellendus ullam tempore unde quidem, at
+          consectetur quis praesentium harum.
         </p>
       </div>
     </div>

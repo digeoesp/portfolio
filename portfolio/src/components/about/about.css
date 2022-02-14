@@ -1,55 +1,39 @@
 .about {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   gap: 2rem;
   width: 100%;
 }
-.about > * {
-  flex: 1;
-}
 .image {
-  max-width: 35%;
-  position: relative;
-  left: 10rem;
-  top: 6.2rem;
-  /* border: 3px solid firebrick; */
+  position: absolute;
 }
 .button-container > * {
-  position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
     Verdana, sans-serif;
-  bottom: 20px;
   font-size: 2.1rem;
   background-color: rgb(195, 229, 212);
   color: rgb(212, 63, 63);
 }
 .button-container {
   display: flex;
-  left: 70px;
-  position: relative;
   gap: 1.8rem;
 }
 .header {
   font-size: 3rem;
   font-family: rubiks;
-  /* width: 700px; */
   text-align: center;
   position: relative;
-  /* left: 0; */
-  right: 12rem;
 }
 .about-info {
-  position: relative;
-  top: 15rem;
-  left: 6.25rem;
+  position: absolute;
+  border: 10px solid firebrick;
+  width: 50rem;
+  left: 0px;
 }
 .aboutMe {
-  width: 50rem;
   font-size: 2rem;
   text-align: left;
-  /* text-align: center; */
-  position: relative;
   font-family: rubiks;
-  left: 70px;
-  /* border: 3px solid firebrick; */
+  border: 10px solid firebrick;
 }
