@@ -2331,11 +2331,20 @@
 }
 
 #languages-icons {
-  font-size: 4em;
-  color: #674f66;
-  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 10em;
+  color: #000000;
 }
-.icon-flex {
+#bottom-icon {
+  font-size: 10em;
+  color: #000000;
+  padding-bottom: 180px;
+  z-index: 1;
+}
+
+/* .icon-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -2621,4 +2630,4 @@
     color: rgb(0, 0, 0);
     padding-bottom: 60px;
   }
-}
+} */
