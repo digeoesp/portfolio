@@ -1,9 +1,12 @@
-.container {
+.project-container {
   position: relative;
-  top: 600px;
+  background: coral;
+  padding: 0px;
+  margin: 0px;
+  border-top: ;
 }
 /* ///kcal css//////// */
-.section-header {
+/* .section-header {
   font-size: 60px;
   font-family: 'Hahmlet', serif;
 }
@@ -31,6 +34,6 @@
   right: 90px;
   max-width: 50%;
   padding-right: 20px;
-}
+} */
 /* border: firebrick 10px solid; */
 /* ///tail wag css /////////// */

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section>
       {/* //////////////////////////////////////////Kcal /////////////////////////*/}
-      <div className="container">
+      <div className="project-container">
         <div>
           <h1 className="section-header">{`<Projects />`}</h1>
           <div className="info-container">

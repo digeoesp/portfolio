@@ -1,12 +1,12 @@
-.about {
+.about-container {
   position: relative;
-  top: 300px;
-  padding: 1em;
-  height: 75vh;
-  width: 75vh;
+  /* top: 300px; */
+  /* padding: 2em; */
+  height: 100%;
+  width: 100%;
   background: chocolate;
 }
-.image {
+/* .image {
   position: absolute;
   top: 0;
   left: 0;
@@ -40,4 +40,4 @@
   font-size: 2rem;
   text-align: left;
   font-family: rubiks;
-}
+} */

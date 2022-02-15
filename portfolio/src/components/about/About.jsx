@@ -4,7 +4,7 @@ import image from '../img/face.png';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about-container">
       <img className="image" src={image} alt="head shot of the developer" />
       <div className="about-info">
         <h1 className="header">
