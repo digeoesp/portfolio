@@ -1,12 +1,15 @@
 .about {
-  display: flex;
   position: relative;
-  flex-wrap: wrap;
-  gap: 2rem;
-  width: 100%;
+  top: 300px;
+  padding: 1em;
+  height: 75vh;
+  width: 75vh;
+  background: chocolate;
 }
 .image {
   position: absolute;
+  top: 0;
+  left: 0;
 }
 .button-container > * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
@@ -20,20 +23,21 @@
   gap: 1.8rem;
 }
 .header {
+  position: absolute;
   font-size: 3rem;
+  top: -160px;
+  left: 40px;
   font-family: rubiks;
   text-align: center;
-  position: relative;
 }
 .about-info {
   position: absolute;
-  border: 10px solid firebrick;
   width: 50rem;
-  left: 0px;
+  left: 810px;
+  top: 380px;
 }
 .aboutMe {
   font-size: 2rem;
   text-align: left;
   font-family: rubiks;
-  border: 10px solid firebrick;
 }
