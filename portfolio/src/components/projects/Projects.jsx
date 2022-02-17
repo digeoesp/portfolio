@@ -11,8 +11,8 @@ const Projects = () => {
       {/* //////////////////////////////////////////Kcal /////////////////////////*/}
       <div className="project-container">
         <div>
-          <h1 className="section-header">{`<Projects />`}</h1>
-          <div className="info-container">
+          <h1>{`<Projects />`}</h1>
+          <div>
             <h2>Kcal</h2>
             <article>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque eos repudiandae
@@ -25,7 +25,7 @@ const Projects = () => {
               <br />
               <article>Technologies: Loremquas voluptatum dolorem?</article>
             </article>
-            <img id="k-image" src={k} alt="food" />
+            <img src={k} alt="food" />
           </div>
           {/* ////////////////////////////Tail Wag ///////////////////*/}
         </div>
@@ -42,7 +42,7 @@ const Projects = () => {
             <br />
             <article>Technologies: Loremquas voluptatum dolorem?</article>
           </article>
-          <img className="image" src={tail} alt="food" />
+          <img src={tail} alt="food" />
         </div>
         {/* ////////////////////////////meals on wheels ///////////////////*/}
 
@@ -56,7 +56,7 @@ const Projects = () => {
             autem atque dicta explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci
             sint debitis fugit?
           </p>
-          <img className="image" src={meals} alt="food" />
+          <img src={meals} alt="food" />
         </div>
         {/* number guessing game */}
         <div>
@@ -69,7 +69,7 @@ const Projects = () => {
             autem atque dicta explicabo provident aperiam doloribus ipsam deserunt ducimus adipisci
             sint debitis fugit?
           </p>
-          <img className="image" src={number} alt="food" />
+          <img src={number} alt="food" />
         </div>
       </div>
     </section>
