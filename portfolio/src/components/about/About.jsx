@@ -11,7 +11,9 @@ const About = () => {
 
       <section>
         <div>
-          <h1>Hi, my name is Diego Espinoza I'm a software developer</h1>
+          <h1>
+            Hi, my name is <span className="my-name">Diego Espinoza</span> I'm a software developer
+          </h1>
         </div>
 
         <nav>

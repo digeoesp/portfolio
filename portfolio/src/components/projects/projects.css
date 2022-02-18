@@ -1,38 +1,35 @@
-.project-container {
-  /* position: relative;
-  background: coral;
-  padding: 0px;
-  margin: 0px; */
-}
-/* ///kcal css//////// */
-/* .section-header {
-  font-size: 60px;
-  font-family: 'Hahmlet', serif;
-}
-.info-container {
-  display: flex;
-  gap: 2rem;
-}
-.info-container > * {
-  flex: 1;
-}
-.info-container > article {
-  right: 235px;
-  top: 120px;
+.project-main {
   text-align: left;
-  font-size: 20px;
+  line-height: 1;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1vh 0.5em;
 }
-.info-container > h2 {
-  font-size: 60px;
-  left: 75px;
-  bottom: 15px;
+h2 {
+  /* font-family: var(--ff-title); */
+  line-height: 1;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1vh 0.5em;
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: space-around;
+  align-content: left;
 }
-#k-image {
-  right: 90px;
-  max-width: 50%;
-  padding-right: 20px;
-} */
-/* border: firebrick 10px solid; */
-/* ///tail wag css /////////// */
+ul a {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.125rem;
+  color: rgb(96, 235, 235);
+  text-decoration: none;
+}
+
+a:focus {
+  color: var(--clr-accent);
+  text-decoration: underline;
+}

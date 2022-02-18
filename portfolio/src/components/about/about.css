@@ -1,43 +1,9 @@
+/* about me styles */
 .about-container {
-  /* position: relative; */
-  /* top: 300px; */
-  /* padding: 2em; */
-  /* height: 100%;
-  width: 100%;
-  background: chocolate; */
+  position: relative;
+  top: -30px;
+  padding-bottom: 3em;
 }
-/* .image {
-  position: absolute;
-  top: 0;
-  left: 0;
+.my-name {
+  color: rgb(119, 220, 228);
 }
-.button-container > * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
-    Verdana, sans-serif;
-  font-size: 2.1rem;
-  background-color: rgb(195, 229, 212);
-  color: rgb(212, 63, 63);
-}
-.button-container {
-  display: flex;
-  gap: 1.8rem;
-}
-.header {
-  position: absolute;
-  font-size: 3rem;
-  top: -160px;
-  left: 40px;
-  font-family: rubiks;
-  text-align: center;
-}
-.about-info {
-  position: absolute;
-  width: 50rem;
-  left: 810px;
-  top: 380px;
-}
-.aboutMe {
-  font-size: 2rem;
-  text-align: left;
-  font-family: rubiks;
-} */
