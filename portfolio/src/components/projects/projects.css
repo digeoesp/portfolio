@@ -1,3 +1,5 @@
+.project-container {
+}
 .project-main {
   text-align: left;
   line-height: 1;
@@ -6,12 +8,11 @@
   padding: 1vh 0.5em;
 }
 h2 {
-  /* font-family: var(--ff-title); */
   line-height: 1;
   font-size: 1.2rem;
   text-align: left;
   padding: 1vh 0.5em;
-  text-decoration: underline;
+  text-decoration: underline rgb(141, 134, 134);
 }
 ul {
   display: flex;

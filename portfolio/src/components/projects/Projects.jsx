@@ -45,8 +45,6 @@ const Projects = () => {
         <div>
           <img src={k} alt="food" />
         </div>
-      </section>
-      <section>
         <div>
           <h2>Tail Wag</h2>
         </div>
@@ -64,10 +62,22 @@ const Projects = () => {
           <p className="project-main">Technologies: Loremquas voluptatum dolorem?</p>
         </div>
         <div>
+          <ul className="source-container">
+            <li>
+              <a className=" source_container-a" href="">
+                See Live
+              </a>
+            </li>
+            <li>
+              <a className="source_container-a" href="">
+                Source Code
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
           <img src={tail} alt="food" />
         </div>
-      </section>
-      <section>
         <div>
           <h2>Meals On Wheels</h2>
         </div>
@@ -85,12 +95,24 @@ const Projects = () => {
           <p className="project-main">Technologies: Loremquas voluptatum dolorem?</p>
         </div>
         <div>
-          <img src={k} alt="food" />
+          <ul className="source-container">
+            <li>
+              <a className=" source_container-a" href="">
+                See Live
+              </a>
+            </li>
+            <li>
+              <a className="source_container-a" href="">
+                Source Code
+              </a>
+            </li>
+          </ul>
         </div>
-      </section>
-      <section>
         <div>
-          <h2>Number Guessing Game</h2>
+          <img src={meals} alt="food" />
+        </div>
+        <div>
+          <h2>Number Game</h2>
         </div>
         <div>
           <p className="project-main">
@@ -106,14 +128,18 @@ const Projects = () => {
           <p className="project-main">Technologies: Loremquas voluptatum dolorem?</p>
         </div>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <a href="">See Live</a>
-                <a href="">Source Code</a>
-              </li>
-            </ul>
-          </nav>
+          <ul className="source-container">
+            <li>
+              <a className=" source_container-a" href="">
+                See Live
+              </a>
+            </li>
+            <li>
+              <a className="source_container-a" href="">
+                Source Code
+              </a>
+            </li>
+          </ul>
         </div>
         <div>
           <img src={number} alt="food" />
