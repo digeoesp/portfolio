@@ -12,7 +12,8 @@ h2 {
   font-size: 1.2rem;
   text-align: left;
   padding: 1vh 0.5em;
-  text-decoration: underline rgb(141, 134, 134);
+  color: rgb(179, 255, 247);
+  text-decoration: underline rgb(179, 255, 247);
 }
 ul {
   display: flex;
