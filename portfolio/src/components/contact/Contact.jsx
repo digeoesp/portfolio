@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import '../contact/contact.css';
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -19,24 +20,42 @@ export default function ContactUs() {
   }
 
   return (
-    <main>
-      <div>
-        <h1>Contact Me</h1>
-        <p>would you like to work with me? Awesome</p>
-        <h3>Email me at</h3>
-        <p>diegoespinoza475@outlook.com</p>
-      </div>
-      <div></div>
-      <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+    <main className="contact-main">
+      <section>
+        <div>
+          <h1>Contact Me</h1>
+          <p>would you like to work with me? Awesome</p>
+        </div>
+        <div>
+          <h3>Email me at</h3>
+          <p>diegoespinoza475@outlook.com</p>
+          <p>or send me a direct email</p>
+        </div>
+      </section>
+      <section className="form">
+        <form className="contact-form" onSubmit={sendEmail}>
+          <input type="hidden" name="contact_number" />
+          <div>
+            <label>
+              Name
+              <input type="text" name="user_name" />
+            </label>
+          </div>
+          <div>
+            <label>
+              Email
+              <input type="email" name="user_email" />
+            </label>
+          </div>
+          <div>
+            <label>
+              Message
+              <textarea name="message" />
+            </label>
+          </div>
+          <input type="submit" value="Send" />
+        </form>
+      </section>
     </main>
   );
 }
